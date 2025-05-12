@@ -1,10 +1,12 @@
-import { View, Text } from 'react-native'
+import { View, Image } from 'react-native'
 import React from 'react'
+import imagePath from '../constants/imagePath'
+
 
 const index = () => {
   return (
     <View>
-      <Text>index</Text>
+      <Image source={imagePath.react_logo} />
     </View>
   )
 }
